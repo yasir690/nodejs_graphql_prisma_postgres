@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "rootDirs": ["src"],            // Ensure your source files are in the src folder
+      "outDir": "dist",               // The compiled files will go here
+      "lib": ["es2020"],              // Use ES2020 library
+      "target": "es2020",             // Target ES2020 for output
+      "module": "esnext",             // Use ESNext module syntax
+      "moduleResolution": "node",     // Resolve modules like Node.js does
+      "esModuleInterop": true,        // Ensure compatibility with CommonJS modules
+      "types": ["node"]               // Include Node.js types
+    },
+    "include": ["src/**/*"],           // Ensure TypeScript compiles all files in the src folder
+    "exclude": ["node_modules"]        // Exclude node_modules from compilation
+  }
+  
